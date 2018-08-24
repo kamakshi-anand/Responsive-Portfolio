@@ -26,6 +26,9 @@
         font-size: 24px;    
         text-align: left;
     }
+    #call{
+        font-size: 24px;
+    }
     #myname{
         margin-left: 0px;
         background:lightskyblue;  
@@ -39,15 +42,15 @@
         float: right;  
        }
              
-        #middle{
+     #middle{
             padding-right: 50px;
             float: right;   
         }
-        #right {
+    #right {
             padding-right: 50px;
             float: right;   
         }
-        .container{
+    .container{
             width: 100%;        
             align-content: center;
             line-height: 1.8;
@@ -55,16 +58,19 @@
            text-align: left;  
            padding-left: -5%;   
             }
-            #main-bio{
-                text-align: left;
-                padding-bottom: 50px;
-                width: 60%;
-                margin-left: 0%;    
-            }  
-            #bio-image1 {
-                width: 30%;
-                height: 5%;
-            }
+    .datacontainer{
+        width: 75%;
+    }
+     #main-bio{
+     text-align: left;
+     padding-bottom: 50px;
+     width: 60%;
+     margin-left: 0%;    
+     }  
+     #bio-image1 {
+     width: 30%;
+     height: 5%;
+     }
             #aboutme {
                 text-align: left;
                 width: 100%;
@@ -153,7 +159,10 @@
         background-color: red;    
        text-align: left;  
        padding-left: -5%;   
-        
+       }
+    .datacontainer{
+        width: 100%;
+        margin-left: 10%;
     }
     #main-bio{
         text-align: left;
@@ -176,6 +185,9 @@
         font-size: 24px;    
         text-align: left;
         text-align: left;
+    }
+    #call{
+        font-size: 24px;
     }
 
     #aboutme {
@@ -230,9 +242,12 @@
         align-content: center;
         line-height: 1.6;
         background-color: red;    
-       
-        
-    }
+        }
+    .datacontainer{
+            widows: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     #main-bio{
      
         padding-bottom: 50px;
@@ -248,11 +263,12 @@
     #aboutmetext{
         font-size: 24px;    
     }
+    #call{
+        font-size: 24px;
+    }
     
-    footer
-    
-        {background:blue;       
-        position: static;
+    footer{
+       
         width: 100%;
        padding-top: 10px;    
     /* overflow: auto; */
